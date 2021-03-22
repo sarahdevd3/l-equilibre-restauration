@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
+    <title>l'Equilibre-Restauration</title>
 
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,16 +26,22 @@
                 <ul>
                     <li> <h1>L'<span style="color:  #00917C">Equilibre</span> R<span style="color:  #00917C">estauration</span></h1> </li>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a href="categories.html">Categories</a>
+                        <a href="history.html">Notre histoire</a>
                     </li>
                     <li>
-                        <a href="foods.html">Foods</a>
+                        <a href="categories.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="category-foods.html">Commander</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src='images/tel.svg' class='tel'></img></a>
                     </li>
                 </ul>
             </div>
@@ -56,120 +64,27 @@
 
 
     <!-- fOOD MEnu Section Starts Here -->
-    <section class="food-menu">
+    <section class="history">
+    <div class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="images" alt="photo lat" class="img-responsive img-curve">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
+                    <h4>title</h4>
+                    <p class="food-detail">description</p>
+                    <p class="food-price">price</p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="#" class="btn btn-primary">Commander</a>
                 </div>
             </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Smoky Burger</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Nice Burger</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Food Title</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="images/menu-momo.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Chicken Steam Momo</h4>
-                    <p class="food-price">$2.3</p>
-                    <p class="food-detail">
-                        Made with Italian Sauce, Chicken, and organice vegetables.
-                    </p>
-                    <br>
-
-                    <a href="#" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-
-            <div class="clearfix"></div>
-
-            
-
         </div>
-
     </section>
+
     <!-- fOOD Menu Section Ends Here -->
 
     <!-- social Section Starts Here -->
@@ -183,7 +98,7 @@
                     <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
                 </li>
                 <li>
-                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                    <a href="#"><img src="images/mail.svg" class='mail'/></a>
                 </li>
             </ul>
         </div>
@@ -193,7 +108,7 @@
     <!-- footer Section Starts Here -->
     <section class="footer">
         <div class="container text-center">
-            <p>All rights reserved. Designed By <a href="#">Sarah Diom</a></p>
+            <p>Mentions légales <!--Designed By  <a href="#">Sarah Diom, Lindsay Chognon and Delphine Robert</a>--></p>
         </div>
     </section>
     <!-- footer Section Ends Here -->
