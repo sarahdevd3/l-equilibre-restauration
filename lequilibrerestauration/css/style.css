@@ -1,11 +1,10 @@
 /* CSS for All */
-*{
+* {
     margin: 0 0;
     padding: 0 0;
-    font-family: 'Dancing Script', cursive;
 }
 
-body{
+body {
     background-color:black;
 }
 
@@ -14,7 +13,7 @@ span {
     font-size: 40px;
 }
 
-.history{
+.history {
     /*background-image:url('../images/wood-2142241_1920(1).jpg');*/
     background-color: #fde8cd;
     /*background-image: url('https://cdn.pixabay.com/photo/2016/03/04/16/03/snowflakes-1236247_960_720.jpg');*/
@@ -24,13 +23,13 @@ span {
     background-color: white;
 }
 
-.text-cent{
+.text-cent {
     font-family: 'Akaya Telivigala', cursive;
     text-align:center;
     color:black;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -50,81 +49,82 @@ h1 {
 	padding-left: 15px;
 }
 
-.img-curve{
+.img-curve {
     border-radius: 15px;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
-.clearfix{
+.clearfix {
     clear: both;
     float: none;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     font-size:25px;
 }
 
-a:hover{
+a:hover {
     color: #00917C;
 }
 
-.btn{
+.btn {
     padding: 1%;
     border: none;
     font-size: 1rem;
     border-radius: 5px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #00917C;
     color: white;
     cursor: pointer;
     font-family: 'Akaya Telivigala', cursive;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: white;
     background-color: #00917C;
 }
 
-h2{
+h2 {
     color: white;
     font-size: 2rem;
     margin-bottom: 2%;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
-.float-container{
+.float-container {
     position: relative;
 }
 
-.float-text{
-    position: absolute;
-    left: 40%;
+.float-text {
     color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Akaya Telivigala', cursive;
 }
 
-fieldset{
+fieldset {
     border: 1px solid white;
     margin: 5%;
     padding: 3%;
@@ -142,19 +142,21 @@ fieldset{
 	border-bottom: solid 10px#00917C;
 	margin-top: 30px;
     background-color: black;
+    margin-left: -70px;
+    font-family: 'Dancing Script', cursive;
 }
 
-.logo{
+.logo {
     width: 10%;
     float: left;
     border: 1px solid #DDD;
 }
 
-.menu{
+.menu {
     line-height: 60px;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
 }
 
@@ -167,21 +169,29 @@ fieldset{
 .tel {
     width: 40px;
     height: 40px;
+    margin-right: -20px;
+}
+
+.hours {
+    text-align: center;
+    color: white;
+    background-color: #00917C;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 20px;
 }
 
 /* CSS for Food SEarch Section */
 
-.food-search{
+.food-search {
     background-image: url(../images/basil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 4% 0;
     border-bottom:solid 3px #646C6B;
-
 }
 
-.food-search input[type="search"]{
+.food-search input[type="search"] {
     width: 50%;
     padding: 1%;
     font-size: 1rem;
@@ -194,11 +204,11 @@ fieldset{
 
 /* CSS for Categories */
 
-.categories{
+.categories {
     padding: 4% 0;
 }
 
-.box-3{
+.box-3 {
     width: 160px;
     height: 140px;
     float: left;
@@ -241,7 +251,7 @@ fieldset{
 
 /* CSS for Food Menu */
 
-.btn-discover{
+.btn-discover {
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -256,12 +266,12 @@ fieldset{
     font-family: 'Akaya Telivigala', cursive;
 }
 
-.food-menu{
+.food-menu {
     background-color: #ececec;
     padding: 4% 0;
 }
 
-.food-menu-box{
+.food-menu-box {
     width: 43%;
     margin: 1%;
     padding: 2%;
@@ -270,55 +280,55 @@ fieldset{
     border-radius: 15px;
 }
 
-.food-menu-img{
+.food-menu-img {
     width: 20%;
     float: left;
 }
 
-.food-menu-desc{
+.food-menu-desc {
     width: 70%;
     float: left;
     margin-left: 8%;
 }
 
-.food-price{
+.food-price {
     font-size: 1.2rem;
     margin: 2% 0;
 }
 
-.food-detail{
+.food-detail {
     font-size: 1rem;
     color: #747d8c;
 }
 
 /* CSS for Social */
 
-.social{
+.social {
     border-top: solid 3px#00917C;
 }
 
-.social ul{
+.social ul {
     list-style-type: none;
 }
 
-.social ul li{
+.social ul li {
     display: inline;
     padding: 1%;
 }
 
-p{
+p {
     color:rgb(228, 228, 228);
     font-size:25px;
 }
 
 /* for Order Section */
 
-.order{
+.order {
     width: 50%;
     margin: 0 auto;
 }
 
-.input-responsive{
+.input-responsive {
     width: 96%;
     padding: 1%;
     margin-bottom: 3%;
@@ -327,81 +337,115 @@ p{
     font-size: 1rem;
 }
 
-.order-label{
+.order-label {
     margin-bottom: 1%; 
     font-weight: bold;
 }
 
 /*CSS for footer*/
 
-.footer{
+.footer {
     color:white;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* CSS for Mobile Size or Smaller Screen */
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     .logo{
         width: 10%;
         float: left;
         border: 1px solid #DDD;
     }
     
-    .container{
+    .container {
         width: 80%;
         margin: 0 auto;
         padding: 1%;
     }
 
-
-    .menu ul{
+    .menu ul {
         text-align: center;
     }
 
-    .food-search input[type="search"]{
+    .food-search input[type="search"] {
         width: 90%;
         padding: 2%;
         margin-bottom: 3%;
     }
 
-    .btn{
+    .btn {
         width: 91%;
         padding: 2%;
     }
 
-    .food-search{
+    .food-search {
         padding: 10% 0;
     }
 
-    .categories{
+    .categories {
         padding: 20% 0;
     }
 
-    h2{
+    h2 {
         margin-bottom: 10%;
     }
 
-    .box-3{
+    .box-3 {
         width: 100%;
-        margin: 4% auto;
+        margin: 10% auto;
     }
 
-    .food-menu{
+    .food-menu {
         padding: 20% 0;
     }
 
-    .food-menu-box{
+    .food-menu-box {
         width: 90%;
         padding: 5%;
         margin-bottom: 5%;
     }
 
-    .social{
+    .social {
         padding: 5% 0;
     }
 
-    .order{
+    .order {
         width: 100%;
     }
+
+    .signature {
+        margin-left: 150px;
+    }
+
+    .mail {
+        width: 15%;
+        height: 15%;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: auto;
+        margin-top: -20px;
+    }
+
+    .histoire_texte {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .signature {
+        font-size: 25px;
+    }
+
+    #logo_histoire {
+        width: 50%;
+    }
+
 }
+
+
+
+
 
