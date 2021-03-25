@@ -1,0 +1,485 @@
+/* CSS for All */
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background-color:black;
+}
+
+span {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.history {
+    /*background-image:url('../images/wood-2142241_1920(1).jpg');*/
+    background-color: #fde8cd;
+    /*background-image: url('https://cdn.pixabay.com/photo/2016/03/04/16/03/snowflakes-1236247_960_720.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.text-cent {
+    font-family: 'Akaya Telivigala', cursive;
+    text-align:center;
+    color:black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+	width: 100%;
+	margin-left: -40px;
+	margin-top: -20px;
+}
+
+h1 {
+	font-size: 35px;
+	display: inline;
+	color: white;
+	float: left;
+	padding-left: 15px;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size:25px;
+}
+
+a:hover {
+    color: #00917C;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #00917C;
+    color: white;
+    cursor: pointer;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #00917C;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.mail {
+    width: 3.5%;
+    height: 3.5%;
+}
+
+/* CSSS for navbar section */
+
+.navbar {
+	border-bottom: solid 10px#00917C;
+	margin-top: 30px;
+    background-color: black;
+    margin-left: -70px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    border: 1px solid #DDD;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.tel {
+    width: 40px;
+    height: 40px;
+    margin-right: -20px;
+}
+
+.hours {
+    text-align: center;
+    color: white;
+    background-color: #00917C;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 20px;
+}
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+    background-image: url(../images/basil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+    border-bottom:solid 3px #646C6B;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00000075;
+    color:white;
+}
+
+
+/* CSS for Categories */
+
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 160px;
+    height: 140px;
+    float: left;
+    margin: 2%;
+}
+
+.box-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for History*/
+
+.block_histoire {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.histoire_texte {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+    margin-top: -30px;
+}
+
+.signature {
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -khtml-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    color: black;
+    margin-left: 300px;
+}
+
+/* CSS for Food Menu */
+
+.btn-discover {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #00917C;
+    color: white;
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.img-food{
+    width:100%;
+    border-radius: 15%;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* CSS for Social */
+
+.social {
+    border-top: solid 3px#00917C;
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+p {
+    color:rgb(228, 228, 228);
+    font-size:25px;
+}
+
+/* for Order Section */
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.bg{
+    background-color:#00917C;
+}
+
+
+   /* CSS for footer */
+
+
+.footer-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social{
+    grid-column:2/3;
+    width:100%;
+}
+
+.adresse{
+    grid-column:1/2;
+}
+
+.ouverture{
+    grid-column:3/4;
+}
+
+.mentions{
+    grid-column:2/3;
+    margin-top:50px;
+}
+
+.mail {
+    width: 42px;
+    height: 42px;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 10%;
+        float: left;
+        border: 1px solid #DDD;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1%;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .food-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search {
+        padding: 10% 0;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    .food-menu {
+        padding: 20% 0;
+    }
+
+    .food-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social {
+        padding: 5% 0;
+    }
+
+    .order {
+        width: 100%;
+    }
+
+    .signature {
+        margin-left: 150px;
+    }
+
+    .mail {
+        width: 15%;
+        height: 15%;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: auto;
+        margin-top: -20px;
+    }
+
+    .histoire_texte {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .signature {
+        font-size: 25px;
+    }
+
+    #logo_histoire {
+        width: 50%;
+    }
+
+ 
+
+}
+
+
+
+
+
