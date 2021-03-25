@@ -40,8 +40,8 @@
 <br> et des associations insolites.<br>
 
             
-            <form class="btn-discover" action="<?php echo SITEURL; ?>categories.php"> 
-<input type="submit"value="Voir la carte">
+            <form action="<?php echo SITEURL; ?>categories.php"> 
+<input type="submit"value="Découvrir notre carte" class="btn-discover">
 </form>
 </div>
     
