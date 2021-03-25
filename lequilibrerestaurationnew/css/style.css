@@ -320,6 +320,12 @@ fieldset {
     padding: 1%;
 }
 
+.center {
+    display: grid;
+    grid-row: auto;
+    grid-column:2/3;
+}
+
 p {
     color:rgb(228, 228, 228);
     font-size:25px;
@@ -356,6 +362,7 @@ p {
 .footer-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
 }
 
 .social{
@@ -365,15 +372,22 @@ p {
 
 .adresse{
     grid-column:1/2;
+    font-size: 16px;
 }
 
 .ouverture{
     grid-column:3/4;
+    font-size: 16px;
 }
 
 .mentions{
     grid-column:2/3;
     margin-top:50px;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 1em;
 }
 
 .mail {
