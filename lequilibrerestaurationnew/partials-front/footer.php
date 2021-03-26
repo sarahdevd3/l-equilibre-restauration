@@ -16,7 +16,7 @@
             </ul>
              </div>
             <p class='adresse'>1866 route de Villefort,</br>Saint Martin de Valgalgues</br>06 51 48 51 27</p>
-            <p class='mentions'><a href="charte.html">Copyright 2021 l'Equilibre Restauration Mentions légales Designed By Sarah Diom, Lindsay Chognon and Delphine Robert</a></p>
+            <p class='mentions'><a href="charte.html" class='copyright'>Copyright 2021 l'Equilibre Restauration Mentions légales Designed By Sarah Diom, Lindsay Chognon and Delphine Robert</a></p>
             <p class='ouverture'>Nous sommes ouverts</br>Du mardi au dimanche</br> De 9h à 22h</p>
         </div>
 
