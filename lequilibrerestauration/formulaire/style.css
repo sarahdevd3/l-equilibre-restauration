@@ -1,0 +1,372 @@
+/* 
+    Author: Sarah Diom;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    background-color:black
+
+}
+.history{
+    background-image:url('../images/wood.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+}
+.text-cent{
+    text-align:center;
+    color:white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+	width: 100%;
+	margin-left: -40px;
+	margin-top: -20px;
+}
+
+h1 {
+	font-size: 35px;
+	display: inline;
+	color: white;
+	float: left;
+	padding-left: 15px;
+}
+
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size:25px;
+}
+a:hover{
+    color: #00917C;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #00917C;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #00917C;
+}
+
+
+/* CSSS for navbar section */
+
+.navbar {
+	border-bottom: solid 10px#00917C;
+	margin-top: 30px;
+    background-color: black;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+    border: 1px solid #DDD;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/basil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+    border-bottom:solid 3px #646C6B;
+
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00000075;
+    color:white;
+}
+
+/* CSS for contact place */
+
+.container_contact{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    place-items:center;
+}
+
+.presentation_contact > p{
+    color:black;
+    font-weight: bold;
+}
+
+.image_contact{
+    grid-column:1/2;
+}
+
+.presentation_contact{
+    grid-column:2/3;
+}
+
+
+.login-box {
+    grid-column:3/5;
+    width:60%;
+    margin-top:3rem;
+  }
+  
+  .login-box .user-box,
+  .login-box .message-box
+ {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 2px 0;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .login-box .user-box label,
+  .login-box .message-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label,
+  .login-box .message-box textarea:focus ~ label,
+  .login-box .message-box textarea:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #00917C;
+    font-size: 12px;
+  }
+
+  .message-box > textarea{
+      padding:2px 0;
+      background-color:transparent;
+      border:solid black 1px;
+      width:100%;
+      font-size:16px;
+      margin-bottom:30px;
+      height:100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align:left;
+      margin-top:18px;
+  }
+
+  .submit-box > input{
+      justify-self: center;
+      background-color:#00917C;
+      margin-bottom:3rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top:5%;
+      text-align:center;
+      border: 2px dashed #00917C;
+      cursor:pointer;
+      padding:15px 70px;
+      letter-spacing:1.2px;
+      font-weight:300;
+      outline:none; 
+      border-radius:5%;
+  }
+
+  .submit-box > input:hover{
+    background:transparent;
+    color:#00917C;
+  }
+
+  .image_contact > img{
+    width:130px;
+    height:130px;
+  }
+
+/* CSS for Social */
+
+.social{
+    border-top: solid 10px#00917C;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+p{
+    color:rgb(228, 228, 228);
+    font-size:25px;
+}
+
+/*CSS for footer*/
+.footer{
+    color:white;
+  
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 10%;
+        float: left;
+        border: 1px solid #DDD;
+    }
+    
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 1%;
+    }
+
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .container_contact{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:20% 20% 20%;
+    }
+
+    .image_contact{
+        grid-column:1/2;
+        grid-row:2/3;
+    }
+
+    .image_contact > img{
+        width:90px;
+        height:90px;
+        margin-top:30px;
+    }
+
+    .presentation_contact{
+        grid-column:1/2;
+        grid-row:1/2;
+        text-align: center;
+        margin-top:30px;
+    }
+
+    .login-box{
+        grid-column:1/2;
+        grid-row: 3/4;
+        margin-top:10px;
+    }
+    .mail {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* CSS for footer */
+
+.footer-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social{
+    grid-column:2/3;
+    width:100%;
+}
+
+.adresse{
+    grid-column:1/2;
+}
+
+.ouverture{
+    grid-column:3/4;
+}
+
+.mentions{
+    grid-column:2/3;
+    margin-top:50px;
+}
+
+.mail {
+    width: 42px;
+    height: 42px;
+}
